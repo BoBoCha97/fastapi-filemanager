@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html, body{
+            background: black;
+            color: whitesmoke;
+        }
+        a:link{color: skyblue;}
+        a:visited{color: orangered}
+    </style>
+</head>
+<body>
+
+<h1 style="display: inline-flex;align-items: center">
+    <!--
+    <img style="width: 36px;height: 36px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAADvUlEQVR4nO2c60tUeRyH/RPaF9HC1pta2K2hIUs2kK6INSijojN0QdqKSiKJ0EozL9Uf0IvoRRREQUSXhTYWYdllG63VatIz3elq5ngb5zjO5Uw3x/mEERHR5Qt9j2J9PvC8PfB7nnMO59XJyOA4juM4juM4juM4juM4juM4jvvIrKveH5MBz7FkwGsmA158JWbS8B5N3Fw5hbIFixveyZbheaIgHu9jGd6O0WszwhdmGZ4/koYHdmAZJecZ4DNLGCWrrPYS2Emi3bOSET6yoUDhJKutOGy1FcNmzGhb0QxG+PDd7y+sSfiLMBbE/YWhmL9gXfRS/g8M8Xaxy+5A/EoBSMGnHERil91no63un225aWIteYlYSz5I/mcdRP/PM5Ot+T+pB4g2u0BcIgdDTctPqQeIXFgGskzqIKoeYPDfHJAcsQP1AOHGRSCLxA7UA4T+zMZYEW5ciue3y5DurQcG9k0I0v0NeHGvHIP/5L45g3qAvrO/YSwInVuAVFcVMLB3QjLSW4uBvxbrB+g5ORdjwbNbm8Zd4tcy+vSqBwged8JuzL9dQGjvhGekp04/QOfhX2En3SeykApWA6E93wTqAToOzoAdPD3iQLhxOYa7qpEO7flmUA/waP80dB6aicS135Hqrhn3A6a/twCPD0zHcHD0Lm0goS87UA8Qay19861LGkQO1AOkunYh3V9P+mUO1ANQfv14B6gDqRM70A/QVwtSK3agHmCkbzfIbrED/QC9NSA1Ygf6AXqqQarFDtQDpHqqQKrEDvQDdO8E2Sl2YEOAHSA7xA70AwS3g2wXO1APMBysBKkUO9AP0FUBUiF2YEOAbSDbxA7UA7x6uhVkq9iBfoDOcpBysQP9AE+2gGwRO1AP8LJjM8hmsQP9AI/LQMrEDvQDPNoIslHsQD3Ai4cbQDaIHegHeLAeZL3YgQ0B1oKsFTtQD/D8/hqQNWIH+gHulYKUih2oB3h2dzXIarED/QB3VoCsEDtQD5C87QXxih3oB7hZDFIsdqAewLpRBFIkdqAf4LobxC12oB4gYeSB5Ikd6Adod4G4xA7UA8TbckFyxQ70A/hzQHLEDtQDxK4uAVkidqAeIHplIchCsQP9AK3ZINliB+oBhlrmg8wXO1APELk4Lx65lAWSJXFgwy/LmjPPRS5mgmQKHMw5rR4g/N/sX0yfMzLY5ARxftKB2eQ0Td/sqRl2bLDZMS18wXEm7HPETJ8DxPHOwaiTsG/WadvkcxzHcRzHcRzHcRzHcRzHcRyXMVH3GhvDGF6L04viAAAAAElFTkSuQmCC">
+    -->
+    Directory listing for {path}
+</h1>
+<hr>
+
+<table>
+    <thead>
+        <tr>
+            <td>path</td>
+            <td>modified-time</td>
+            <td>size</td>
+        </tr>
+    </thead>
+    <tbody>
+        {parent}
+        {list}
+    </tbody>
+</table>
+
+<hr>
+
+
+</body>
+
+</html>
